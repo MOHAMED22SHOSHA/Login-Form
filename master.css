@@ -1,0 +1,115 @@
+.icon-login{
+    border-radius: 10px;  
+    border: 1px solid black;  
+    padding: 10px;
+    font-size: 12px;
+    margin: 0px 8px;
+}
+.icon-login:hover{
+    background-color: rgb(162, 202, 235);;
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+}
+body{
+    background-color: #c9d6ff;
+    background: linear-gradient(to right, #e2e2e2, #c9d6ff);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    height: 100vh;
+}
+
+.container{
+    background-color: #fff;
+    border-radius: 50px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.35);
+    position: relative;
+    overflow: hidden;
+    width: 800px;
+    min-height: 500px;
+}
+a{
+    text-decoration: none;
+    cursor: pointer;
+    color:#777777;
+}
+p{
+    font-size: 14px;
+    line-height: 20px;
+    letter-spacing: 0.3px;
+    margin: 20px 0;
+}
+
+.container form{
+    background-color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 0 40px;
+    height: 100%;
+}
+.container form input{
+    background-color: #eee;
+    margin:10px;
+    border-radius: 5px;
+    border: none;
+    padding :10px;
+    width: 100%;
+    outline-color: rgb(0, 140, 255);
+}
+.forgot-ms{
+    margin: 24px 0px 0px 0px;
+    padding: 0px 0px 12px 0px;
+}
+
+.form-container{
+    position: absolute;
+    height: 100%;
+}
+.sign-up{
+    right:0cm;
+    width: 50%;
+}
+.sign-in{
+    left: 0px;
+    width: 50%;
+    display: none;
+}
+.toggle-container{
+    background-color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 0 40px;
+    height: 100%;
+}
+.toggle-left{
+    background-color: rgb(0, 123, 255);
+    position: absolute;
+    left: 0px;
+    width: 50%;
+    top: 0px;
+    padding: 172px 27px;
+    height: 100%;
+    border-radius: 0 150px 100px 0;
+    
+
+}
+.toggle-right{
+    background-color: rgb(0, 123, 255);
+    height: 100%;
+    position: absolute;
+    right:0px;
+    width: 50%;
+    top: 0px;
+    padding: 172px 27px;
+    border-radius: 150px 0 0 100px;
+    display: none;
+}
